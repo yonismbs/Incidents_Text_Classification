@@ -13,22 +13,11 @@ This repository contains the code and notebooks for the **Text Classification wi
 
 ## Dataset  
 This project uses datasets containing textual descriptions of incidents categorized by type. The datasets include:  
-- **Training**: `data/incidents_train.json`, `data/t3_train.json`.  
+- **Training**: `data/incidents_train.json`, `data/t1_train.json`.  
 - **Validation**: `data/incidents_dev.json`.  
-- **Test**: `data/incidents_test.json`, `data/t3_test.json`.  
+- **Test**: `data/incidents_test.json`, `data/t1_test.json`.  
 
 Each file contains textual descriptions of incidents, where labels correspond to integer-encoded incident types.  
-
-## Repository Structure  
-├── data/                    # Folder for dataset (train, dev, test JSON files).
-├── notebooks/               # Jupyter notebooks for each task.
-│   ├── mlp.ipynb            # MLP-based classification with word embeddings.
-│   ├── rnn.ipynb            # LSTM-based classification with word embeddings.
-│   ├── rnn-bidirectional.ipynb # Optional: Bidirectional LSTM experiments.
-│   ├── transformer.ipynb    # Transformer-based classification.
-│   ├── t3_classifier_incidents.ipynb # Naive Bayes and Logistic Regression with bag-of-words.
-├── requirements.txt         # List of Python dependencies.
-├── README.md                # Project documentation.
 
 ## Tasks Overview  
 
