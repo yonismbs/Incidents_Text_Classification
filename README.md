@@ -1,6 +1,6 @@
 # Text Classification with Neural Networks  
 
-This repository contains the code and notebooks for the **Text Classification with Neural Networks** project, completed as part of the IFT-7022 course on Natural Language Processing (Autumn 2023). The project explores various neural network architectures for text classification, as well as traditional machine learning algorithms such as Naive Bayes and Logistic Regression.  
+This repository contains the code and notebooks for the **Text Classification with Neural Networks** project, completed as part of the IFT-7022 course on Natural Language Processing. The project explores various neural network architectures for text classification, as well as traditional machine learning algorithms such as Naive Bayes and Logistic Regression.  
 
 ## Project Objectives  
 - Utilize pretrained word embeddings (e.g., Spacy embeddings).  
