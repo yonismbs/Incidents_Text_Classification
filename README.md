@@ -27,8 +27,8 @@ Each file contains textual descriptions of incidents, where labels correspond to
   - Compare Naive Bayes and Logistic Regression classifiers.  
   - Evaluate performance using accuracy and confusion matrices.  
   - Analyze the impact of normalization techniques (lemmatization vs. no normalization).  
-  - Propose labels for incident types based on model weights.  
-- **Notebook**: `t3_classifier_incidents.ipynb`.
+  - Propose labels for incident types based on model weights.
+- **Notebook**: [t1_classifier_incidents.ipynb](t1_classifier_incidents.ipynb)
   
 ### Task 2: Feedforward Network (MLP)
 - **Objective**: Classify text descriptions using an MLP with word embeddings.
