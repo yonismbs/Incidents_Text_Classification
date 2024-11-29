@@ -29,27 +29,30 @@ Each file contains textual descriptions of incidents, where labels correspond to
   - Analyze the impact of normalization techniques (lemmatization vs. no normalization).  
   - Propose labels for incident types based on model weights.  
 - **Notebook**: `t3_classifier_incidents.ipynb`.
-- 
-### Task 2: Feedforward Network (MLP)  
-- **Objective**: Classify text descriptions using an MLP with word embeddings.  
+  
+### Task 2: Feedforward Network (MLP)
+- **Objective**: Classify text descriptions using an MLP with word embeddings.
 - **Key Features**:  
   - Tokenization and embeddings from Spacy.  
   - Pooling strategies (max, average, min).  
   - Analysis of results and hyperparameter tuning.  
+- **Notebook**: [mlp.ipynb](mlp.ipynb)
 
-### Task 3: Recurrent Neural Networks (LSTM)  
+### Task 3: Recurrent Neural Networks (LSTM)
 - **Objective**: Classify text descriptions using an LSTM.  
 - **Key Features**:  
   - Compare unidirectional and bidirectional LSTMs.  
   - Tokenization and embeddings from Spacy.  
   - Analysis of model architecture and performance.  
+- **Notebook**: [rnn.ipynb](rnn.ipynb)
 
-### Task 4: Transformer-Based Models  
+### Task 4: Transformer-Based Models
 - **Objective**: Use transformer models (BERT and another model) for text classification.  
 - **Key Features**:  
   - Tokenization and embeddings from HuggingFace.  
   - Compare results between BERT and a significantly different transformer.  
   - Analyze performance against previous tasks.
+- **Notebook**: [transformer.ipynb](transformer.ipynb)
 
 ## Results and Analysis  
 ### Model Performance Summary  
