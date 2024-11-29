@@ -39,12 +39,18 @@ Each file contains textual descriptions of incidents, where labels correspond to
 - **Notebook**: [mlp.ipynb](mlp.ipynb)
 
 ### Task 3: Recurrent Neural Networks (LSTM)
-- **Objective**: Classify text descriptions using an LSTM.  
-- **Key Features**:  
-  - Compare unidirectional and bidirectional LSTMs.  
-  - Tokenization and embeddings from Spacy.  
-  - Analysis of model architecture and performance.  
-- **Notebook**: [rnn.ipynb](rnn.ipynb)
+
+- **Objective**: Classify text descriptions using an LSTM.
+- **Key Features**:
+  - Compare unidirectional and bidirectional LSTMs.
+  - Tokenization and embeddings from Spacy.
+  - Analyze model architecture and performance.
+
+#### Notebooks:
+  - **[rnn_uni.ipynb](rnn_uni.ipynb)**: This notebook focuses on the unidirectional LSTM model, which processes the input sequence in one direction.
+  - **[rnn_bi.ipynb](rnn_bi.ipynb)**: This notebook explores the bidirectional LSTM model, which processes the input sequence in both directions to capture context from both past and future tokens.
+
+Both models are trained and evaluated for performance comparison.
 
 ### Task 4: Transformer-Based Models
 - **Objective**: Use transformer models (BERT and another model) for text classification.  
@@ -67,5 +73,4 @@ Each file contains textual descriptions of incidents, where labels correspond to
 | GPT-2            | 0.74     |  
 
 ### Observations  
-The results indicate a variety of performances among the models. Simpler models like Logistic Regression and Naive Bayes perform well, while the MLP with average pooling achieves the best accuracy. RNNs, despite being designed for sequential data, yield weaker results, especially for the bidirectional version. Surprisingly, advanced language models like BERT and GPT-2 do not significantly outperform simpler methods, suggesting that for this task, increased complexity does not necessarily lead to better performance.  
- 
+The results indicate a variety of performances among the models. Simpler models like Logistic Regression and Naive Bayes perform well, while the MLP with average pooling achieves the best accuracy. RNNs, despite being designed for sequential data, yield weaker results, especially for the bidirectional version. Surprisingly, advanced language models like BERT and GPT-2 do not significantly outperform simpler methods, suggesting that for this task, increased complexity does not necessarily lead to better performance. 
